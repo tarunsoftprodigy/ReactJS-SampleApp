@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar .nav-item {
+   margin: 0 10px
+}
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar .nav-item a{
+   text-transform: capitalize;
+}
+
+[class^="homepage-"] {
+  min-height: 450px;
+  margin: 15px auto;
+  transition: 100ms ease-in-out;
+}
+
+[class^="homepage-"]:hover {
+  transform: scale(1.01);
+  transform-origin: center;
+}
+
+[class^="homepage-"]:hover h3 {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+[class^="homepage-"] h3 {
+  width: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.homepage-electronics {
+    background: url("./Assets/images/electronics.jpg") center center no-repeat , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.homepage-jewelery {
+  background: url("./Assets/images/jewellary.jpg") center center no-repeat , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.homepage-mens-clothing {
+  background: url("./Assets/images/manFashion.jpg") top center no-repeat , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.homepage-womens-clothing {
+  background: url("./Assets/images/womenFashion.jpg") center center no-repeat , linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
