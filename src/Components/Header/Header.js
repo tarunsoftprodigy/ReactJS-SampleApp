@@ -13,7 +13,7 @@ const Header = () => {
   const categories = useSelector(state => state.categories.productCategories)
 
   return (
-    <div>
+    <div >
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
                 <a className="navbar-brand" href="#">EShop</a>
